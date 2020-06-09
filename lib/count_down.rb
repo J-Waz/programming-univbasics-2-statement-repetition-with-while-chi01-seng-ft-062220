@@ -39,6 +39,7 @@
    break if counter == magic_exit_number
    puts "#{counter}"
   counter -= 1 
+   puts "Happy New Year!"
 end
     
     
