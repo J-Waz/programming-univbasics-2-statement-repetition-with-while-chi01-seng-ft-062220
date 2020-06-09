@@ -33,7 +33,7 @@
     #end
     
   counter = 10 
-  magic_exit_number
+  magic_exit_number = 0
   
   while counter <= 10 do
    break if counter == magic_exit_number
