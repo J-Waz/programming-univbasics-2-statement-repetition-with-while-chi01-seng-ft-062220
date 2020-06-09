@@ -33,7 +33,8 @@
     #end
     
   counter = 10 
-  magic
+  magic_exit_number
+  
   while counter <= 10 do
    break if counter == magic_exit_number
    puts "#{counter}"
