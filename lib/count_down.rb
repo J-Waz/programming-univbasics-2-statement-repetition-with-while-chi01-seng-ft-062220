@@ -35,8 +35,7 @@
   counter = 10 
   magic_exit_number = 0
   
-  while counter <= 10 do
-   break if counter == magic_exit_number
+  while counter >= 1 do
    puts "#{counter}"
   counter -= 1 
 end
