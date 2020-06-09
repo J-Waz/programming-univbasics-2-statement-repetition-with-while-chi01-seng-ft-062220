@@ -20,15 +20,19 @@
     puts "i will never run"
   end
   
-  count = 0 
-  magic_exit_number = 9
+  
+  #While Statments
+  #count = 0 
+  #magic_exit_number = 9
   
   
-  while count < 10 && count != magic_exit_number do
-    break if count == magic_exit_number
-    puts "I am the #{count}, I love to count!"
-     count += 1 
-    end
+  #while count < 10 && count != magic_exit_number do
+    #break if count == magic_exit_number
+    #puts "I am the #{count}, I love to count!"
+     #count += 1 
+    #end
+    
+  
     
     
     
