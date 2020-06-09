@@ -32,7 +32,13 @@
      #count += 1 
     #end
     
-  
+  counter = 10 
+  magic
+  while counter <= 10 do
+   break if counter == magic_exit_number
+   puts "#{counter}"
+  counter -= 1 
+end
     
     
     
