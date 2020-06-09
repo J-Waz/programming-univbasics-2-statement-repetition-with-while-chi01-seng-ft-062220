@@ -24,7 +24,7 @@
   magic_exit_number = 7
   
   
-  while count < 10 do 
+  while count < 10 && count != magic_exit_number do
     break if count == magic_exit_number
     puts "I am the #{count}, I love to count!"
      count += 1 
