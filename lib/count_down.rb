@@ -1,9 +1,28 @@
 # Write your code here
-count = 10 
 
-while count >= 1 do
-  puts "#{count}"
-  count -= 1
-end
-puts "Happy New Year!"
- 
+#while (condition expression)
+  #do
+    #The Stuff
+  #end
+  
+#These are tested infinite loops DONT RUN!
+
+#while true do
+    #puts "This is the song that never ends"
+  #end
+
+#while -1 do 
+    #puts "The song that never ends"
+  #end
+  
+#Falsey just as important
+  while nil do
+    puts "i will never run"
+  end
+  
+  count = 0 
+  
+  while count do 
+    puts "I am the #{count}, I love to count!"
+     count = count + 1 
+    end
